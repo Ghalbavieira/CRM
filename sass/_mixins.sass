@@ -1,0 +1,26 @@
+@use 'variables'
+
+
+@mixin button-start
+    color: variables.$text-color-white
+    padding: 10px 20px
+    border-radius: 30px
+    position: absolute
+    bottom: 43%
+
+@mixin icons
+    color: #616262
+    padding: 0 15px  
+
+    &:hover
+        margin-left: 5px
+        padding: 5px
+
+        &:hover i
+            color: #4dbeea
+    &:active
+        margin-left: 5px
+        padding: 5px
+
+        &:active i
+            color: #4dbeea
